@@ -72,7 +72,7 @@ public class uploadfile {
 
 
 
-                File testUploadFile = new File("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Scholastic Project"+"output"+cName+"");
+                File testUploadFile = new File("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Scholastic Project\\"+"output"+cName+"");
                 System.out.print(testUploadFile);
 
                 RestAssured.baseURI = "https://api.lambdatest.com/automation/api/v1/sessions/"+fName+"/terminal-logs";
