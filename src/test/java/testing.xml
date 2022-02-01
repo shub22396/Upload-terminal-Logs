@@ -13,7 +13,7 @@
         </classes>
     </test>
 
-    <test name="Win10 - Chrome2">
+<!--     <test name="Win10 - Chrome2">
         <parameter name="browser" value="Chrome"/>
         <parameter name="version" value="94.0"/>
         <parameter name="platform" value="Windows 10"/>
@@ -517,7 +517,7 @@
                 <class name="apitestingsample"/>
                 <class name="uploadfile"></class>
             </classes>
-        </test>
+        </test> -->
 <!--        <test name="Mac - Opera1">-->
 <!--            <parameter name="browser" value="Opera"/>-->
 <!--            <parameter name="version" value="79.0"/>-->
