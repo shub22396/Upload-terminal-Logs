@@ -47,7 +47,7 @@ public class uploadfile {
 
 
 
-    File folder = new File("C:\ProgramData\Jenkins\.jenkins\workspace\Scholastic Project");
+    File folder = new File("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Scholastic Project");
     File[] listOfFiles = folder.listFiles();
 
     for (int i = 0; i < listOfFiles.length; i++) {
@@ -72,7 +72,7 @@ public class uploadfile {
 
 
 
-                File testUploadFile = new File("C:\ProgramData\Jenkins\.jenkins\workspace\Scholastic Project"+"output"+cName+"");
+                File testUploadFile = new File("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Scholastic Project"+"output"+cName+"");
                 System.out.print(testUploadFile);
 
                 RestAssured.baseURI = "https://api.lambdatest.com/automation/api/v1/sessions/"+fName+"/terminal-logs";
